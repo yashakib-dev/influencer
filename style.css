@@ -103,3 +103,60 @@
 .logos ul{
     justify-content: space-around;
 }
+
+/* Collections section styling */
+
+#title{
+    text-align: center;
+     color: var(--primary-color);
+    font-size: 1.75rem;
+      font-weight: 600;
+      margin-bottom: 63px;
+      margin-top: 0;
+}
+.collections{
+    width: 72%;
+    height: 1662px;
+    max-width: 1047px;
+    margin: 0 auto;
+}
+.products-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); 
+    gap: 30px;
+    margin-left: 20px;
+}
+.card p{
+  width: 196px;
+  margin-left: 14px;
+
+}
+.card{
+    width: 329px;
+    box-shadow: 0 0 40px 0 rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    height: 490px;
+    
+}
+.collections h3{
+    color: var(--primary-color);
+    font-size: 1.75rem;
+    font-weight: 600;
+    margin-top: 10px;
+    margin-left: 14px;
+    
+}
+.product-picture{
+    padding: 17px 15px 0px 14px;
+}
+.review{
+    margin-left: 14px;
+}
+
+#see {
+    text-align: right;
+    margin-top: 50px;
+    color:#E02C6D;
+    font-size: 1rem;
+    font-weight: bold;
+}
